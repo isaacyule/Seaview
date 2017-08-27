@@ -11,7 +11,7 @@ app.set("view engine", ".handlebars");
 
 app.use(express.static(path.join(__dirname, "/public")));
 
-function homeHandler(req, res) {
+function homeHandler(request, response) {
 	response.render("home", {title: "Seaview Homepage"});
 }
 
