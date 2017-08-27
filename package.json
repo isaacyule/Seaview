@@ -1,0 +1,15 @@
+{
+  "name": "seaview",
+  "version": "1.0.0",
+  "description": "Test Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "console.log(\"hello World!!!!\");",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
