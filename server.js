@@ -20,8 +20,14 @@ function pricesHandler(request, response) {
 	response.render("prices", {title: "Seaview Prices"});
 };
 
+function contactHandler(request, response) {
+	response.render("contact", {title: "Seaview Contact Page"});
+};
+
+
 app.get("/", homeHandler);
 app.get("/prices", pricesHandler);
+app.get("/contact", contactHandler);
 
 app.listen(8080);
 
