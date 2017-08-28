@@ -1,2 +1,15 @@
 /* Seaview Stylesheet */
 
+body {
+	max-width: 1024px;
+	margin: auto;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+}

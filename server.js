@@ -31,4 +31,4 @@ app.get("/contact", contactHandler);
 
 app.listen(8080);
 
-console.log("Hello cmd");
+console.log("Hello World!");
